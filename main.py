@@ -28,7 +28,5 @@ def shree():
 
         return render_template('show.html',inf=round(infprob*100))
 
-    return render_template('index.html')
-
 if __name__ == "__main__":
     app.run(debug=True)
