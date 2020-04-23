@@ -6,7 +6,7 @@ file = open('model.pkl','rb')
 clf = pickle.load(file)
 file.close()
 
-@app.route('/',methods=['GET','POST'])
+@app.route('/Covid-19-solution/',methods=['GET','POST'])
 def shree(): 
     if request.method == "POST":
         mydict = request.form
